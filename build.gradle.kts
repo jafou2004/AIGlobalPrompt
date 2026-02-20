@@ -48,6 +48,10 @@ dependencies {
         bundledModules(providers.gradleProperty("platformBundledModules").map { it.split(',') })
 
         testFramework(TestFrameworkType.Platform)
+
+        // Optional: load the local ml-llm plugin in the sandbox to test AI Assistant integration.
+        // Set mlLlmPluginDir in your local gradle.properties (not committed) to enable.
+        providers.gradleProperty("mlLlmPluginDir").orNull?.let { localPlugin(file(it)) }
     }
 }
 

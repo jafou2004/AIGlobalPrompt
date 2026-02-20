@@ -5,11 +5,19 @@
     <vendor>jafou2004</vendor>
 
     <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.ml.llm</depends>
 
-    <resource-bundle>messages.MyBundle</resource-bundle>
+    <resource-bundle>messages.AIGlobalPromptBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.jafou2004.aiglobalprompt.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
-        <postStartupActivity implementation="com.github.jafou2004.aiglobalprompt.startup.MyProjectActivity" />
+        <postStartupActivity implementation="intellij.aiglobalprompt.startup.PromptSyncProjectActivity"/>
+        <applicationService serviceImplementation="intellij.aiglobalprompt.settings.GlobalSettingsState"/>
+        <projectService serviceImplementation="intellij.aiglobalprompt.settings.ProjectSettingsState"/>
+        <projectConfigurable
+            parentId="tools"
+            instance="intellij.aiglobalprompt.settings.GlobalSettingsConfigurable"
+            id="intellij.aiglobalprompt.settings.GlobalSettingsConfigurable"
+            key="settings.global.displayName"
+            bundle="messages.AIGlobalPromptBundle"/>
     </extensions>
 </idea-plugin>
