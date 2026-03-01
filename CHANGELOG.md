@@ -4,6 +4,11 @@
 
 ## [Unreleased]
 
+## [1.1.0]
+### Changed
+- Update link in README.md after plugin approval
+- Upgrade `actions/upload-artifact` from v6 to v7 in CI workflow
+
 ## [1.0.0]
 ### Added
 - Global system prompt configurable in Settings > Tools > AIGlobalPrompt

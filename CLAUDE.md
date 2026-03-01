@@ -39,6 +39,11 @@ UI tests use a separate run configuration:
 - **Resource bundle:** `src/main/resources/messages/MyBundle.properties` — i18n strings accessed via `MyBundle.message()`
 - **Plugin description** is extracted from the `<!-- Plugin description -->` section in `README.md` at build time — do not remove those HTML comment markers
 
+## JetBrains Marketplace
+
+- **MARKETPLACE_ID:** `30296`
+- **Plugin URL:** https://plugins.jetbrains.com/plugin/30296-aiglobalprompt
+
 ## Key Configuration Files
 
 - `gradle.properties` — plugin metadata (group, name, version, platform version, sinceBuild)

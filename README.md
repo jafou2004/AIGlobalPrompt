@@ -1,8 +1,8 @@
 # AIGlobalPrompt
 
 ![Build](https://github.com/jafou2004/AIGlobalPrompt/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/MARKETPLACE_ID.svg)](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/MARKETPLACE_ID.svg)](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID)
+[![Version](https://img.shields.io/jetbrains/plugin/v/30296.svg)](https://plugins.jetbrains.com/plugin/30296)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/30296.svg)](https://plugins.jetbrains.com/plugin/30296)
 
 <!-- Plugin description -->
 **AIGlobalPrompt** keeps your AI Assistant commit message prompt consistent across all your projects.
@@ -26,9 +26,9 @@ Write your system prompt once in <kbd>Settings</kbd> > <kbd>Tools</kbd> > <kbd>A
 
 - Using JetBrains Marketplace:
 
-  Go to [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID) and install it by clicking the <kbd>Install to ...</kbd> button in case your IDE is running.
+  Go to [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/30296) and install it by clicking the <kbd>Install to ...</kbd> button in case your IDE is running.
 
-  You can also download the [latest release](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID/versions) from JetBrains Marketplace and install it manually using
+  You can also download the [latest release](https://plugins.jetbrains.com/plugin/30296/versions) from JetBrains Marketplace and install it manually using
   <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
 
 - Manually:
