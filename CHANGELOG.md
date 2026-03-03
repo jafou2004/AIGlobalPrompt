@@ -3,6 +3,9 @@
 # AIGlobalPrompt Changelog
 
 ## [Unreleased]
+- Add support for version 2025.1.0
+
+## [1.0.0]
 ### Added
 - Global system prompt configurable in Settings > Tools > AIGlobalPrompt
 - Per-project opt-out via a checkbox in the same settings panel
